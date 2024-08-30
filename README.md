@@ -1,19 +1,23 @@
 # Human-Activity-Recognition_using_CNN-LSTM
 Developed and implemented deep learning models for human activity recognition, focusing on spatiotemporal data processing and sequence modeling.
 
+  
+# Data Pipeline:
+* Preprocessed the UCF50 dataset, including frame extraction, resizing, normalization, and conversion to fixed-length sequences to ensure consistent input for training.
+
+  ![Data_1](https://github.com/user-attachments/assets/5f500d65-970d-4379-a48d-ce21547af215)
+
+
 # Model Development: 
 * ### Implemented a ConvLSTM model to capture spatiotemporal dynamics by integrating convolutional and LSTM layers.
   
-![Model_2](https://github.com/user-attachments/assets/ebbb3e94-3f40-4b52-990e-3067de13bac0)
+  ![Model_2](https://github.com/user-attachments/assets/ebbb3e94-3f40-4b52-990e-3067de13bac0)
 
 
 * ### Additionally, developed an LRCN model combining CNNs for spatial feature extraction and LSTM layers for temporal sequence modeling.
 
-![Model_1](https://github.com/user-attachments/assets/a092c1b9-1822-495d-83f2-946c403f7cc2)
+  ![Model_1](https://github.com/user-attachments/assets/a092c1b9-1822-495d-83f2-946c403f7cc2)
 
-  
-# Data Pipeline:
-* Preprocessed the UCF50 dataset, including frame extraction, resizing, normalization, and conversion to fixed-length sequences to ensure consistent input for training.
   
 # Model Training & Optimization:
 * Trained models using categorical cross-entropy loss and Adam optimizer, with early stopping callbacks to prevent overfitting.
