@@ -4,12 +4,12 @@ Developed and implemented deep learning models for human activity recognition, f
 # Model Development: 
 * Implemented a ConvLSTM model to capture spatiotemporal dynamics by integrating convolutional and LSTM layers.
   
-![download_arch_1](https://github.com/user-attachments/assets/21f5a88f-7e82-402a-be8e-82b9309a89e4)
+![Model_2](https://github.com/user-attachments/assets/ebbb3e94-3f40-4b52-990e-3067de13bac0)
 
 
 * Additionally, developed an LRCN model combining CNNs for spatial feature extraction and LSTM layers for temporal sequence modeling.
 
-![download_arch_2](https://github.com/user-attachments/assets/ad66962d-198a-4070-8396-eaee51ea0c79)
+![Model_1](https://github.com/user-attachments/assets/a092c1b9-1822-495d-83f2-946c403f7cc2)
 
   
 # Data Pipeline:
